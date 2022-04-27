@@ -1,0 +1,125 @@
+*{
+box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: url(bg.jpg);
+    background-repeat: no-repeat; */
+    background: #e1e1df;
+    /* color: azure; */
+}
+/* .color{
+    color: black;
+    padding: 20px;
+    margin: 210px;
+
+} */
+h2{
+    color: black;
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+    /* margin: 120px; */
+}
+.container{
+    /* position:relative; */
+    /* margin-top: 50%; */
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
+    /* margin: 210px; */
+    margin-left: 540px;
+    /* align-items: center; */
+    /* display:inherit; */
+    border: 1px solid #000;
+    color: #fff;
+    background: #0c101c;
+    /* box-shadow: 3px 3px 5px grey; */
+    box-shadow: 10px 10px 5px grey;
+    
+}
+.container ul{
+    list-style: none;
+    margin: 16px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    /* display: list-item; */
+    line-height: 40px;
+    /* float: left; */
+}
+/* .container li{
+    float: right;
+} */
+.container .text{
+    width: 60%;
+    height: 30px;
+    /* margin-left: 15px; */
+    /* margin-left: ; */
+    float: left;
+    font-size: 15px;
+    border-radius: 20px;
+    background: goldenrod;
+    border: 1px solid goldenrod;
+    box-shadow: 3px 3px 2px grey;
+    
+}
+input:focus {
+    /* outline: #fff; */
+    outline:none;
+    /* outline: goldenrod; */
+    text-align: center;
+  }
+.container .button{
+    width: 70px;
+    height: 30px;
+    /* margin: 20px; */
+    float: right;
+    background: blue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    box-shadow: 3px 3px 2px grey;
+    cursor: pointer;
+}
+.container .button:hover{
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+    box-shadow: 3px 3px 2px greenyellow;
+}
+.container li a{
+    text-decoration: none;
+    color: #e1e1df;
+    margin-left: 250px;
+    font-weight: 300;
+    font-size: 20px;
+    float: right;
+}
+.container li a:hover{
+    color: red;
+    /* font-size: 25px; */
+}
+
+.error{
+    color: red;
+    margin-left: 15px;
+    margin-top: 10px;
+    /* float: inline-end; */
+    padding: 20px;
+}
+/* Style the close button */
+/* .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  } */
